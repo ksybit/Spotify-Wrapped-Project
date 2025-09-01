@@ -28,7 +28,7 @@ MODIFY COLUMN stream_date DATE;
 ---------------------------------------------------------------
 
 CREATE VIEW top5_songs AS
-SELECT artist_name, song_name, round((sum(ms_played)/60000), 0) as time_played_in_minutes
+SELECT artist_name, song_name, round((sum(ms_played)/60000), 0) AS time_played_in_minutes
 FROM statistics
 WHERE stream_date >= '2025-01-01' AND ms_played > 30000
 GROUP BY artist_name, song_name
