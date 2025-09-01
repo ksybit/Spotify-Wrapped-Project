@@ -1,5 +1,5 @@
 # Spotify-Wrapped-Project
-Spotify Wrapped Project showing most popular insights from my streaming history.
+Spotify Wrapped Project showing the most popular insights from my streaming history.
 
 1. Excel files with streaming history were downloaded, combined and saved as .csv file
 2. Newly created .csv file was uploaded into MySQL Workbench using appropriate query and checked for eventual invalid data
